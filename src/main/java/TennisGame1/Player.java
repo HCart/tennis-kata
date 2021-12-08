@@ -1,3 +1,5 @@
+package TennisGame1;
+
 public class Player {
 
     private final String name;

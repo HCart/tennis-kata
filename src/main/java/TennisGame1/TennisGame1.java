@@ -1,3 +1,7 @@
+package TennisGame1;
+
+import common.TennisGame;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +19,7 @@ public class TennisGame1 implements TennisGame {
         players.stream()
                 .filter(player -> playerName.equals(player.getName()))
                 .findFirst()
-                .orElseThrow(() -> new IllegalStateException("Player exception"))
+                .orElseThrow(() -> new IllegalStateException("TennisGame1.TennisGame1.Player exception"))
                 .winPoint();
     }
 
